@@ -27,6 +27,7 @@
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint .",
     "prepublishOnly": "pnpm build",
+    "postinstall": "npm run build",
     "test": "vitest",
     "type-check": "tsc --noEmit"
   },
